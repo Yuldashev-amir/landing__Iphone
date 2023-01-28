@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.phone {
+        flex-grow: 1;
+        flex-basis: 0;
+        text-align: right;
+        font-size: 24px;
+        line-height: 29px;
+}
+
+.menu__link {
+    padding-right: 30px;
+    color: rgba($color: #ccc, $alpha: 1.0);
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 29px;
+
+
+}
+
+.menu__link:hover {
+    color: rgb(50, 50, 150);
+}
+
+.menu__link:last-child {
+    padding-right: 0;
+    padding: 0;
+    margin: 0;
+}

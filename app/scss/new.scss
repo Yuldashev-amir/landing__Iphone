@@ -1,0 +1,67 @@
+.new {
+    padding: 90px 0 150px;
+    background-color: #fff;
+}
+
+.new__title {
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+
+.new__info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.new__text p {
+    max-width: 560px;
+    margin: 0 0 30px;
+}
+
+.new__text b {
+    max-width: 560px;
+    line-height: 26px;
+    font-size: 20px;
+
+    display: block;
+
+}
+.iphone__new {
+    margin-left: 190px;
+
+}
+
+@media (max-width: 1000px){
+    p {
+    width: 100%;
+    margin-left: 0;
+   }
+
+}
+
+
+@media (max-width: 1000px){
+    .iphone__new {
+    width: 100%;
+    margin-left: 0;
+
+
+   }
+
+}
+
+@media (max-width: 530px){
+    p {
+    width: 100%;
+    margin-left: 0;
+   }
+
+}

@@ -1,0 +1,42 @@
+@import "vars";
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+// main decoration links
+a {
+    padding-right: 30px;
+    color: rgba($color: #ccc, $alpha: 1.0);
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    color: rgb(50, 50, 150);
+}
+
+// main decoration links//
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+// SCSS PAGES
+@import "header";
+@import "nav";
+@import "container";
+@import "titles";
+@import "main";
+@import "btn";
+@import "normalize";
+@import "new";
+@import "color";
+@import "contacts";
+@import "footer";
+
+
